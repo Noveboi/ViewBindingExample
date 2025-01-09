@@ -10,6 +10,8 @@ public class TestActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        // The ActivityTestBinding class is automatically generated from the activity_test.xml file.
         ActivityTestBinding binding = ActivityTestBinding.inflate(getLayoutInflater());
 
         setContentView(binding.getRoot());
